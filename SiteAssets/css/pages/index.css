@@ -1,0 +1,385 @@
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+.section {
+  padding: 50px;
+}
+.section .section-title {
+  text-align: center;
+  padding: 2em;
+}
+.section .section-content {
+  padding: 2em;
+}
+.section .section-content p {
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 600px) {
+  .section {
+    padding: 10px;
+  }
+  .section .section-title, .section .section-content {
+    padding: 0.5em;
+  }
+}
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+.btn {
+  border-radius: 0;
+  text-transform: uppercase;
+}
+.btn i {
+  margin-right: 0.5em;
+}
+
+.fab-back-to-top {
+  color: white !important;
+  display: inline-block;
+  background-color: #2271d8;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  z-index: 1000;
+  visibility: hidden;
+  font-size: 2em;
+}
+.fab-back-to-top:hover {
+  cursor: pointer;
+  background-color: #0d65d8;
+}
+.fab-back-to-top:active {
+  background-color: #2271d8;
+}
+.fab-back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.btn-med-blue {
+  background-color: #2271d8;
+  color: white;
+}
+.btn-med-blue:hover, .btn-med-blue:focus {
+  background-color: transparent;
+  color: #2271d8;
+  border: 2px solid #2271d8;
+}
+
+.card {
+  border: none;
+  background-color: transparent;
+  border-radius: 0;
+}
+.card .card-title {
+  text-transform: capitalize;
+}
+.card .card-header {
+  background-color: transparent;
+  border: none;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+nav, .navbar {
+  background-color: #2271d8;
+  z-index: 16;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+nav .navbar-brand, .navbar .navbar-brand {
+  color: white;
+}
+nav .navbar-toggler, .navbar .navbar-toggler {
+  color: white;
+}
+nav .navbar-nav .nav-item, .navbar .navbar-nav .nav-item {
+  padding: 0;
+}
+nav .navbar-nav .nav-item .nav-link, .navbar .navbar-nav .nav-item .nav-link {
+  color: white;
+  padding: 1.25em;
+  text-transform: capitalize;
+}
+nav .navbar-nav .nav-item .nav-link:hover, nav .navbar-nav .nav-item .nav-link:focus, .navbar .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav .nav-item .nav-link:focus {
+  background-color: #6aa5f2;
+}
+
+@media only screen and (max-width: 600px) {
+  nav .navbar-nav .nav-item .nav-link, .navbar .navbar-nav .nav-item .nav-link {
+    padding: 0.5em;
+  }
+  nav .sidepanel-button-wrapper, .navbar .sidepanel-button-wrapper {
+    margin-top: -30px;
+  }
+  nav .sidepanel-button-wrapper .openbtn, .navbar .sidepanel-button-wrapper .openbtn {
+    display: inline-block;
+    text-align: right;
+    margin-left: 80%;
+    margin-top: -40px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  nav .navbar-brand {
+    margin: 0 auto;
+  }
+}
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+footer .page-footer {
+  padding: 50px 0;
+  background-color: #103b51;
+}
+footer .page-footer h6 {
+  color: white;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+footer .page-footer .nav-item .nav-link {
+  padding: 0.5em 0;
+  color: #f2f2f2;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+footer .page-footer .nav-item .nav-link:hover, footer .page-footer .nav-item .nav-link:focus {
+  text-decoration: underline;
+}
+footer .footer-copyright {
+  background-color: #0a2330;
+  padding: 1em 0;
+}
+footer .footer-copyright a {
+  color: #f2f2f2;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 600px) {
+  footer .page-footer h6 {
+    margin: 1em 0;
+  }
+}
+.card {
+  border: none;
+  background-color: transparent;
+  border-radius: 0;
+}
+.card .card-title {
+  text-transform: capitalize;
+}
+.card .card-header {
+  background-color: transparent;
+  border: none;
+}
+
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+.btn {
+  border-radius: 0;
+  text-transform: uppercase;
+}
+.btn i {
+  margin-right: 0.5em;
+}
+
+.fab-back-to-top {
+  color: white !important;
+  display: inline-block;
+  background-color: #2271d8;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  z-index: 1000;
+  visibility: hidden;
+  font-size: 2em;
+}
+.fab-back-to-top:hover {
+  cursor: pointer;
+  background-color: #0d65d8;
+}
+.fab-back-to-top:active {
+  background-color: #2271d8;
+}
+.fab-back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.btn-med-blue {
+  background-color: #2271d8;
+  color: white;
+}
+.btn-med-blue:hover, .btn-med-blue:focus {
+  background-color: transparent;
+  color: #2271d8;
+  border: 2px solid #2271d8;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.hero-section {
+  padding: 0;
+}
+.hero-section .carousel {
+  height: 80vh;
+}
+.hero-section .carousel .carousel-indicators li {
+  background-color: black;
+}
+.hero-section .carousel .carousel-inner .carousel-item img {
+  height: 80vh;
+  object-fit: cover;
+}
+.hero-section .carousel .carousel-inner .carousel-item .carousel-caption {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.features-section {
+  background-color: white;
+}
+.features-section .section-content .card .card-body .icon {
+  padding: 1em 0;
+}
+.features-section .section-content .card .card-body .card-title {
+  min-height: 50px;
+}
+.features-section .section-content .card .card-body .card-text {
+  padding-top: 1em;
+  min-height: 225px;
+}
+.features-section .section-content .card .card-footer {
+  background-color: transparent;
+}
+
+.platforms-section {
+  background-color: transparent;
+}
+.platforms-section .section-content .card .card-body .icon {
+  padding: 1em 0;
+}
+.platforms-section .section-content .card .card-body .card-text {
+  padding-top: 1em;
+  min-height: 200px;
+}
+.platforms-section .section-content .card .card-footer {
+  background-color: transparent;
+}
+
+.about-us-section {
+  background-color: white;
+}
+.about-us-section .section-content .card .card-body {
+  padding: 0 0.5em;
+}
+.about-us-section .section-content .card .card-body .card-title {
+  color: #2271d8;
+}
+
+.catalog-section .section-content .image {
+  opacity: 0.5;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  object-fit: cover;
+}
+.catalog-section .section-content .middle {
+  transition: 0.5s ease;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.catalog-section .section-content .card:hover {
+  cursor: pointer;
+}
+.catalog-section .section-content .card:hover .image {
+  opacity: 1;
+}
+.catalog-section .section-content .card:hover .middle {
+  opacity: 0;
+}
+.catalog-section .section-content .text {
+  background-color: #2271d8;
+  color: white;
+  font-size: 1em;
+  padding: 1em 2em;
+  text-transform: capitalize;
+}
+
+.get-started-section {
+  background-color: #0d65d8;
+  padding: 25px;
+}
+.get-started-section .section-title {
+  padding: 0;
+  color: white;
+}
+.get-started-section .section-content {
+  padding: 0;
+  color: white;
+}
+.get-started-section .section-content button {
+  margin: 1em 0;
+}
+.get-started-section .section-content p {
+  margin: 0;
+}
+.get-started-section .section-content a {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .features-section .section-content .card .card-body .card-title, .features-section .section-content .card .card-body .card-text, .platforms-section .section-content .card .card-body .card-title, .platforms-section .section-content .card .card-body .card-text {
+    min-height: 100%;
+  }
+
+  .about-us-section .section-content .buttons-wrapper {
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  .about-us-section .section-content .card .card-body .card-title {
+    text-align: center;
+  }
+
+  .catalog-section .section-content .col-md-4 {
+    margin-bottom: 1em;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

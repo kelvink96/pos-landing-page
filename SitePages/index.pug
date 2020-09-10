@@ -1,0 +1,336 @@
+doctype html
+html
+	head
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		link(rel='stylesheet' href='../SiteAssets/css/vendors/bootstrap.min.css')
+		link(rel='stylesheet' href='../SiteAssets/css/vendors/all.min.css')
+		link(href='https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap', rel='stylesheet')
+		link(rel='stylesheet' href='../SiteAssets/css/pages/index.css')
+		script(src='../SiteAssets/js/vendors/jquery-v3.5.1.min.js')
+		script(src='../SiteAssets/js/vendors/bootstrap.bundle.min.js')
+		script(src='../SiteAssets/js/app.js')
+		title Point of Sale
+	body
+		header
+			nav.navbar.navbar-expand-sm.fixed-top.shadow-sm
+				a.navbar-brand(href='#')
+					i.fas.fa-shopping-basket.mr-3
+					| POS
+				button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNav', aria-controls='navbarNav', aria-expanded='false', aria-label='Toggle navigation')
+					i.fas.fa-bars
+				#navbarNav.collapse.navbar-collapse
+					ul.navbar-nav.ml-auto
+						li.nav-item.active
+							a.nav-link(href='#')
+								| free processing
+								span.sr-only (current)
+						li.nav-item
+							a.nav-link(href='#') features
+						li.nav-item
+							a.nav-link(href='#') pricing
+						li.nav-item
+							a.nav-link(href='#') support
+						li.nav-item
+							a.nav-link(href='#') sign up
+						li.nav-item
+							a.nav-link(href='#')
+								i.fas.fa-shopping-cart
+		main
+			a#back-to-top-btn.fab-back-to-top
+				i.fas.fa-long-arrow-alt-up
+			.section.hero-section
+				#carouselExampleCaptions.carousel.slide(data-ride='carousel')
+					ol.carousel-indicators
+						li.active(data-target='#carouselExampleCaptions', data-slide-to='0')
+						li(data-target='#carouselExampleCaptions', data-slide-to='1')
+						li(data-target='#carouselExampleCaptions', data-slide-to='2')
+					.carousel-inner
+						.carousel-item.active
+							img.d-block.w-100(src='https://picsum.photos/1280/720?random=1', alt='...')
+							.carousel-caption.d-none.d-md-block
+								h5 First slide label
+								p Nulla vitae elit libero, a pharetra augue mollis interdum.
+						.carousel-item
+							img.d-block.w-100(src='https://picsum.photos/1280/720?random=2', alt='...')
+							.carousel-caption.d-none.d-md-block
+								h5 Second slide label
+								p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						.carousel-item
+							img.d-block.w-100(src='https://picsum.photos/1280/720?random=3..', alt='...')
+							.carousel-caption.d-none.d-md-block
+								h5 Third slide label
+								p Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+					a.carousel-control-prev(href='#carouselExampleCaptions', role='button', data-slide='prev')
+						i.fas.fa-arrow-alt-circle-left.fa-2x(aria-hidden='true')
+						span.sr-only Previous
+					a.carousel-control-next(href='#carouselExampleCaptions', role='button', data-slide='next')
+						i.fas.fa-arrow-alt-circle-right.fa-2x(aria-hidden='true')
+						span.sr-only Next
+			.section.features-section
+				.section-title
+					h3 The complete cloud-based POS system
+					h5 Pos.com POS has everything you need to run your small business successfully!
+				.section-content
+					.row
+						.col-md-3
+							.card
+								.card-body
+									p.icon.text-center
+										i.fas.fa-credit-card.fa-2x
+									h5.card-title.text-center Free Card Processing
+									p.card-text
+										| 100% Free Credit Card Processing. Pay 0% card fees!  No additional monthly fees or commitments! In addition, receive FREE POS software, FREE payment terminal, and full support! For US customers only.
+								.card-footer.text-center
+									a.btn.btn-primary(href='#') learn more
+						.col-md-3
+							.card
+								.card-body
+									p.icon.text-center
+										i.fas.fa-shopping-cart.fa-2x
+									h5.card-title.text-center Ring up sales with ease
+									p.card-text
+										| Pos.com POS can be used on Android tablets, iPad’s, PC’s and the Poynt mobile terminal and works offline. With Pos.com, you can process payments quickly so you could spend more time on the floor driving sales, providing better customer service, and focusing on growing your business.
+								.card-footer.text-center
+									a.btn.btn-primary(href='#') learn more
+						.col-md-3
+							.card
+								.card-body
+									p.icon.text-center
+										i.fas.fa-clock.fa-2x
+									h5.card-title.text-center Save time on business operations
+									p.card-text
+										| With the Pos.com POS all-in-one business management system, you can cut back time spent on daily operations and back office tasks and promote efficiency within your business. Shorten your tasks and get more done during the day.
+								.card-footer.text-center
+									a.btn.btn-primary(href='#') learn more
+						.col-md-3
+							.card
+								.card-body
+									p.icon.text-center
+										i.fas.fa-chart-bar.fa-2x
+									h5.card-title.text-center Access your data anytime, anywhere
+									p.card-text
+										| Access reports instantly online, which are kept up-to-date in real time as you handle transactions and store operations. Check on your daily earnings, number of items sold, stock of inventory and order details. Make sure you are on top of your business operations.
+								.card-footer.text-center
+									a.btn.btn-primary(href='#') learn more
+			.section.platforms-section
+				.section-title
+					h3 Pos.com POS can be used on multiple devices and platforms
+					h5 Pos.com functions as an Android POS, Windows POS and iPad POS, and is integrated with the Poynt smart terminal for mobile business management.
+				.section-content
+					.row
+						.col-md-3
+							.card
+								.card-body
+									p.icon.text-center
+										i.fas.fa-desktop.fa-2x
+									h5.card-title.text-center All in One POS
+									p.card-text
+										| Pos.com All-in-One POS hardware includes a 14-in touchscreen register, built-in receipt printer, and stand with multiple ports. Supports peripherals such as bar code scanner, cash register and payment terminal.
+								.card-footer.text-center
+									a.btn.btn-primary(href='#') learn more
+						.col-md-3
+							.card
+								.card-body
+									p.icon.text-center
+										i.fab.fa-android.fa-2x
+									h5.card-title.text-center Android POS
+									p.card-text
+										| Pos.com seamlessly operates on many Android-based tablets. The POS can be accessed by multiple users at any given time, allowing you and your staff to use Pos.com anywhere in your store. Try today!
+								.card-footer.text-center
+									a.btn.btn-primary(href='#') learn more
+						.col-md-3
+							.card
+								.card-body
+									p.icon.text-center
+										i.fab.fa-apple.fa-2x
+									h5.card-title.text-center iPad POS
+									p.card-text
+										| Pos.com is an easy to use iPad POS software. Ring up sales, manage business operations efficiently and assist customers with products and services on the floor, or take orders right at the counter!
+								.card-footer.text-center
+									a.btn.btn-primary(href='#') learn more
+						.col-md-3
+							.card
+								.card-body
+									p.icon.text-center
+										i.fab.fa-windows.fa-2x
+									h5.card-title.text-center windows POS
+									p.card-text
+										| Pos.com can be accessed with the Chrome web browser on your PC. Our web-based system is easy to access, has all the same features as the Android-based version, and allows you to work offline.
+								.card-footer.text-center
+									a.btn.btn-primary(href='#') learn more
+			.section.about-us-section
+				.section-title
+					h3 The all-in-one solution for small business management
+					h5 Business management is the cornerstone of Pos.com. Process payments, generate reports, manage your employees and organize your stock with inventory software.
+				.section-content
+					.container
+						.row
+							.col-md-6
+								#carouselExampleFade.carousel.slide.carousel-fade(data-ride='carousel')
+									.carousel-inner
+										.carousel-item.active
+											img.d-block.w-100(src='https://picsum.photos/1280/720?random=1', alt='...')
+										.carousel-item
+											img.d-block.w-100(src='https://picsum.photos/1280/720?random=2', alt='...')
+										.carousel-item
+											img.d-block.w-100(src='https://picsum.photos/1280/720?random=3', alt='...')
+									a.carousel-control-prev(href='#carouselExampleFade', role='button', data-slide='prev')
+										i.fas.fa-arrow-alt-circle-left(aria-hidden='true')
+										span.sr-only Previous
+									a.carousel-control-next(href='#carouselExampleFade', role='button', data-slide='next')
+										i.fas.fa-arrow-alt-circle-right(aria-hidden='true')
+										span.sr-only Next
+								.buttons-wrapper.mt-4.text-center
+									button.btn.btn-primary
+										i.fab.fa-youtube
+										| watch video
+							.col-md-6
+								.card
+									.card-body
+										h5.card-title
+											i.fas.fa-border-style.fa-fw.mr-2
+											a(href='') point of sale
+										p Be more efficient and profitable by managing POS across multiple devices. Supports SMB retail and hospitality. Free POS plan is available.
+								.card
+									.card-body
+										h5.card-title
+											i.fas.fa-border-style.fa-fw.mr-2
+											a(href='') Contactless Digital Menu
+										p Make your menu paperless with a contacless digital menu solution for restaurants and retail. Try for FREE!
+								.card
+									.card-body
+										h5.card-title
+											i.fas.fa-border-style.fa-fw.mr-2
+											a(href='') Online Ordering
+										p Provide off-premise sales. Orders are synced with Pos.com POS for store pick up or delivery. Comes with a mobile friendly website. Now FREE for 90 days! Learn more…
+								.card
+									.card-body
+										h5.card-title
+											i.fas.fa-border-style.fa-fw.mr-2
+											a(href='') Restaurant Table Management
+										p Speedup operations and increase orders in your full service restaurant! Construct your floor plan, take and process table orders with ease!
+								.card
+									.card-body
+										h5.card-title
+											i.fas.fa-border-style.fa-fw.mr-2
+											a(href='') Free Card Processing
+										p Save money on card processing. Accept Cards at 0%. In addition, receive Free POS and Free payment terminal! Available for US customers only.
+								.card
+									.card-body
+										h5.card-title
+											i.fas.fa-border-style.fa-fw.mr-2
+											a(href='') Payments
+										p Accept payments in cash, credit, debit and other forms of such as Apple Pay and Samsung Pay. Full EMV compliance.
+								.card
+									.card-body
+										h5.card-title
+											i.fas.fa-border-style.fa-fw.mr-2
+											a(href='') Inventory
+										p Full transparency when checking on your current stock. Monitor, when things are solid, received and get notifications when you are running low.
+								.card
+									.card-body
+										h5.card-title
+											i.fas.fa-border-style.fa-fw.mr-2
+											a(href='') Self Service Kiosk
+										p Increase sales by providing an additional sales channel for your customers to order. It is also a great way to upsell your products or services.
+								.card
+									.card-body
+										h5.card-title
+											i.fas.fa-border-style.fa-fw.mr-2
+											a(href='') Loyalty
+										p Supports physical loyalty cards or mobile numbers. Fully integrated with Pos.com POS
+								.card
+									.card-body
+										h5.card-title
+											i.fas.fa-border-style.fa-fw.mr-2
+											a(href='') Customers
+										p Save time and enable more efficient future service for customers. Create and save customer data during transactions. Access their purchase history.
+								.card
+									.card-body
+										h5.card-title
+											i.fas.fa-border-style.fa-fw.mr-2
+											a(href='') Orders
+										p Monitor orders step-by-step until they have been fulfilled. Add special notes to orders for customers with special requests. Dine-in, take-out, and delivery orders are easily entered.
+								.buttons-wrapper
+									button.btn.btn-primary
+										i.fas.fa-angle-double-right
+										| more features
+			.section.catalog-section
+				.section-title
+					h3 Pos.com is made for small businesses
+					h5 Whether you’re serving drinks at happy hour, serving customers a quick meal or brewing up the latest imported coffee bean, Pos.com is made for multiple types of small businesses.
+				.section-content
+					.row
+						.col-md-4
+							a(href='pos-page.html' target='_blank').card
+								img.image(src='https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80', alt='Avatar', style='width:100%')
+								.middle
+									.text spare POS
+
+						.col-md-4
+							a(href='#' target='_blank').card
+								img.image(src='https://images.unsplash.com/photo-1556911220-e15b29be8c8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80', alt='Avatar', style='width:100%')
+								.middle
+									.text kitchen POS
+
+						.col-md-4
+							a(href='#' target='_blank').card
+								img.image(src='https://images.unsplash.com/photo-1482112048165-dd23f81c367d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80', alt='Avatar', style='width:100%')
+								.middle
+									.text bar POS
+
+			.section.get-started-section
+				.section-title
+					h3 Take your business on the go with Pos.com!
+					h5 Managing a small business has never been easier.
+				.section-content.text-center
+					button.btn.btn-light get started
+					p Still have questions?
+					a(href='') Call 212–651–8911
+
+	footer
+		.page-footer
+			.container
+				.row
+					.col-md-3
+						h6 Pos.com POS
+						.nav-item
+							a.nav-link(href='') home
+						.nav-item
+							a.nav-link(href='') POS features
+						.nav-item
+							a.nav-link(href='') all-in-one POS
+						.nav-item
+							a.nav-link(href='') pricing
+					.col-md-3
+						h6 info
+						.nav-item
+							a.nav-link(href='') online ordering system
+						.nav-item
+							a.nav-link(href='') marketplace
+						.nav-item
+							a.nav-link(href='') partnership
+						.nav-item
+							a.nav-link(href='') about us
+					.col-md-3
+						h6 POS solutions
+						.nav-item
+							a.nav-link(href='') bar POS
+						.nav-item
+							a.nav-link(href='') spares POS
+						.nav-item
+							a.nav-link(href='') kitchen POS
+					.col-md-3
+						h6 support
+						.nav-item
+							a.nav-link(href='') getting started
+						.nav-item
+							a.nav-link(href='') video support
+						.nav-item
+							a.nav-link(href='') knowledgebase
+						.nav-item
+							a.nav-link(href='') contact us
+		.footer-copyright
+			.text-center
+				a(href='').mr-3 privacy policy
+				a(href='') Terms of use

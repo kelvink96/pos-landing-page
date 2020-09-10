@@ -1,0 +1,47 @@
+@import "../themes/colors"
+
+nav, .navbar
+  background-color: $color-med-blue
+  z-index: 16
+  padding: 1em
+  margin-bottom: 2em
+
+  .navbar-brand
+    color: white
+
+  .navbar-toggler
+    color: white
+
+  .navbar-nav
+    .nav-item
+      padding: 0
+
+      .nav-link
+        color: white
+        padding: 1.25em
+        text-transform: capitalize
+
+        &:hover,
+        &:focus
+          background-color: $color-light-blue
+
+@media only screen and (max-width: 600px)
+  nav, .navbar
+    .navbar-nav
+      .nav-item
+        .nav-link
+          padding: .5em
+
+    .sidepanel-button-wrapper
+      margin-top: -30px
+
+      .openbtn
+        display: inline-block
+        text-align: right
+        margin-left: 80%
+        margin-top: -40px
+
+@media only screen and (min-width: 600px)
+  nav
+    .navbar-brand
+      margin: 0 auto

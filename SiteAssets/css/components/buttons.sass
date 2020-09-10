@@ -1,0 +1,46 @@
+@import "../themes/colors"
+
+.btn
+  border-radius: 0
+  text-transform: uppercase
+
+  i
+    margin-right: .5em
+
+.fab-back-to-top
+  color: white !important
+  display: inline-block
+  background-color: $color-med-blue
+  width: 50px
+  height: 50px
+  text-align: center
+  border-radius: 4px
+  position: fixed
+  bottom: 30px
+  right: 30px
+  transition: background-color .3s, opacity .5s, visibility .5s
+  opacity: 0
+  z-index: 1000
+  visibility: hidden
+  font-size: 2em
+
+  &:hover
+    cursor: pointer
+    background-color: $color-dark-blue
+
+  &:active
+    background-color: $color-med-blue
+
+  &.show
+    opacity: 1
+    visibility: visible
+
+.btn-med-blue
+  background-color: $color-med-blue
+  color: white
+
+  &:hover,
+  &:focus
+    background-color: transparent
+    color: $color-med-blue
+    border: 2px solid $color-med-blue

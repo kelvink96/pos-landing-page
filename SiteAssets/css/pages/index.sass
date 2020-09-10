@@ -1,0 +1,164 @@
+@import "../themes/colors"
+@import "../layout/section"
+@import "../components/buttons"
+@import "../components/cards"
+@import "../base/typography"
+@import "../layout/nav"
+@import "../layout/footer"
+@import "../components/cards"
+@import "../components/buttons"
+@import "../sass-utils/variables"
+
+html, body
+  overflow-x: hidden
+
+body
+  background-color: $color-lightest-blue
+
+.hero-section
+  padding: 0
+
+  .carousel
+    height: 80vh
+
+    .carousel-indicators
+      li
+        background-color: black
+
+    .carousel-inner
+      .carousel-item
+        img
+          height: 80vh
+          object-fit: cover
+
+        .carousel-caption
+          background-color: $color-lightest-blue
+          color: black
+
+.features-section
+  background-color: white
+
+  .section-content
+    .card
+      .card-body
+        .icon
+          padding: 1em 0
+
+        .card-title
+          min-height: 50px
+
+        .card-text
+          padding-top: 1em
+          min-height: 225px
+
+      .card-footer
+        background-color: transparent
+
+.platforms-section
+  background-color: transparent
+
+  .section-content
+    .card
+      .card-body
+        .icon
+          padding: 1em 0
+
+        .card-text
+          padding-top: 1em
+          min-height: 200px
+
+      .card-footer
+        background-color: transparent
+
+.about-us-section
+  background-color: white
+
+  .section-content
+    .card
+      .card-body
+        padding: 0 .5em
+
+        .card-title
+          color: $color-med-blue
+
+.catalog-section
+  .section-content
+    .image
+      opacity: .5
+      display: block
+      width: 100%
+      height: auto
+      transition: .5s ease
+      backface-visibility: hidden
+      object-fit: cover
+
+    .middle
+      transition: .5s ease
+      opacity: 1
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+      -ms-transform: translate(-50%, -50%)
+      text-align: center
+
+    .card:hover
+      cursor: pointer
+
+      .image
+        opacity: 1
+
+      .middle
+        opacity: 0
+
+    .text
+      background-color: $color-med-blue
+      color: white
+      font-size: 1em
+      padding: 1em 2em
+      text-transform: capitalize
+
+.get-started-section
+  background-color: $color-dark-blue
+  padding: 25px
+
+  .section-title
+    padding: 0
+    color: white
+
+  .section-content
+    padding: 0
+    color: white
+
+    button
+      margin: 1em 0
+
+    p
+      margin: 0
+
+    a
+      color: white
+
+@media only screen and (max-width: 600px)
+  .features-section, .platforms-section
+    .section-content
+      .card
+        .card-body
+          .card-title, .card-text
+            min-height: 100%
+
+  .about-us-section
+    .section-content
+      .buttons-wrapper
+        text-align: center
+        margin-bottom: 2em
+
+      .card
+        .card-body
+          .card-title
+            text-align: center
+
+  .catalog-section
+    .section-content
+      .col-md-4
+        margin-bottom: 1em
